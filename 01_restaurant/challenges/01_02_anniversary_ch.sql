@@ -5,7 +5,3 @@
 -- they plan to bring in their party.
 
 -- Hint: SQLite offers the INTEGER and REAL datatypes
-
-CREATE TABLE AnniversaryAttendees (
-CustomerID INTEGER,
-PartySize INTEGER );

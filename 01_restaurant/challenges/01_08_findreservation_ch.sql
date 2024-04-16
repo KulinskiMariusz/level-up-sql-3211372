@@ -6,9 +6,3 @@
 
 -- There are four people in the party. Today is June 14th.
 
-SELECT Customers.FirstName, Customers.LastName, Reservations.Date, Reservations.PartySize
-FROM Reservations
-JOIN Customers ON Customers.CustomerID = Reservations.CustomerID
-WHERE Customers.LastName LIKE 'St%'
-AND PartySize = '4'
-AND Date LIKE '2022-06-14%';
