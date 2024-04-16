@@ -11,4 +11,3 @@ CustomerID INTEGER,
 PartySize INTEGER
 )
 
-DROP TABLE AnniversaryAttendees
